@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(229, 226, 226);
+}
+
+.grid-item {
+  margin: 8px;
+  width: 22%;
+  border-radius: 8px;
+}
+
+.grid-item h4 {
+  font-weight: 600;
+}
+
+.grid-item img {
+  margin: auto;
+  width: 100%;
+  max-height: 200px;
+}
