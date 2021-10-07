@@ -1,14 +1,13 @@
-var elem = document.querySelector('.grid');
-var msnry = new Masonry(elem, {
-  // options
-  itemSelector: '.grid-item',
-  columnWidth: 200,
-  percentPosition: true,
-  transitionDuration: '0.8s',
-});
-
-// element argument can be a selector string
-//   for an individual element
-var msnry = new Masonry('.grid', {
-  // options
+var macy = Macy({
+  container: '#macy-container',
+  trueOrder: false,
+  waitForImages: false,
+  margin: 24,
+  columns: 4,
+  breakAt: {
+    1200: 4,
+    940: 3,
+    520: 2,
+    400: 1,
+  },
 });

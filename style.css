@@ -6,10 +6,13 @@ body {
   background-color: rgb(229, 226, 226);
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .grid-item {
-  margin: 8px;
-  width: 30%;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .grid-item h4 {
@@ -20,10 +23,4 @@ body {
   margin: auto;
   width: 100%;
   max-height: 200px;
-}
-
-@media (max-width: 768px) {
-  .grid-item {
-    width: 100%;
-  }
 }
