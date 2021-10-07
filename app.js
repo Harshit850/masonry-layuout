@@ -3,11 +3,9 @@ var macy = Macy({
   trueOrder: false,
   waitForImages: false,
   margin: 24,
-  columns: 4,
+  columns: 3,
   breakAt: {
-    1200: 4,
-    940: 3,
-    520: 2,
-    400: 1,
+    990: 2,
+    768: 1,
   },
 });
